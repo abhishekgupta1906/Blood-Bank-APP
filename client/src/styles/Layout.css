@@ -1,0 +1,38 @@
+.sidebar {
+  height: 100vh !important;
+  border-radius: 5px;
+  background-color: rgba(244, 29, 9, 0.699); /* Adjust background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Improved shadow */
+  color: #333; /* Adjust text color */
+  padding: 20px; /* Add padding for better appearance */
+}
+
+.menu {
+  padding-top: 10px;
+}
+
+.menu-item {
+  padding-top: 30px;
+}
+
+.menu-item a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.menu-item i {
+  font-size: 1.2 rem;
+  margin: 0 15px;
+  color: white;
+}
+
+.active {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.active a,
+.active i {
+  color: #2e3200;
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+/* ===========
+==== FORM
+=========== */
+
+.form-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* =============
+====== loader 
+=============== */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================
+--------- navbar 
+=================== */
+
+.navbar {
+  background-color: black !important;
+  color: white !important;
+}
+.nav-link,
+.navbar-brand {
+  background-color: black !important;
+  color: white !important;
+}
+.ms-4 {
+  /* position: relative; */
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Layout.css */
+.sidebar {
+  height: 100vh !important;
+  background-color: #05acd6;
+  box-shadow: 0 0 2px grey;
+  color: rgb(211, 8, 8);
+  padding-top: 0; /* Set top padding to 0 */
+  margin-top: 0; /* Set top margin to 0 */
+}
